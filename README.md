@@ -15,7 +15,7 @@
 - 🎓 Estudiante de Ingeniería en Sistemas — Universidad de Pamplona, Colombia
 - 🏗️ Construyo sistemas de datos reales: ETL incremental, modelado dimensional, pipelines multi-cloud (GCP + AWS)
 - 🤖 Interesado en la intersección de data engineering con AI: RAG, agentes LLM, graph analytics con Neo4j
-- 🎯 Buscando mi primera oportunidad como Data Engineer o Backend Data
+- 🎯 Disponible para roles de Data Engineering / Backend Data — Colombia o remoto
 
 <br>
 
@@ -105,7 +105,7 @@ Sistema de reservas conversacional con agentes LLM especializados, doble bot de 
 
 ### 📊 [dwh-spotify-wrapped](https://github.com/DidierParody/dwh-spotify-wrapped) — Spotify Data Warehouse on GCP
 
-ETL incremental de la Spotify API hacia un DWH dimensional en Cloud SQL, infraestructura 100% como código y CI/CD automatizado.
+Sistema full-stack en producción sobre GCP — ETL incremental de la Spotify API hacia un DWH dimensional en Cloud SQL, con enriquecimiento vía Last.fm y CI/CD automatizado. Proyecto en equipo; mi rol: **backend, modelado dimensional, pipeline ETL y análisis (EDA)**.
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-0D1B2A?style=flat-square&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL_17-0D1B2A?style=flat-square&logo=postgresql&logoColor=white)
@@ -117,8 +117,10 @@ ETL incremental de la Spotify API hacia un DWH dimensional en Cloud SQL, infraes
 | Galaxy schema (facts + dims + snowflake element) | Permite drill-through artista/track sin full denormalization |
 | Cursor-based incremental load + UNIQUE `(user_id, played_at)` | ETL idempotente: cero duplicados en re-ejecuciones |
 | OAuth2 PKCE flow implementado desde cero | No expone client secret al frontend — estándar de seguridad real |
-| Cloud SQL private IP only + VPC + Secret Manager | Zero-knowledge deployment, sin credenciales en código ni en env vars |
+| Cloud SQL en VPC + Secret Manager + IAM least-privilege | Zero credentials en código; backend → DB por red privada via VPC Connector |
 | Cloud Build v2: build → push → deploy → migrate automático | Migrations de Alembic aplicadas como Cloud Run Job post-deploy |
+| Fallback a Last.fm tras la deprecación de campos de Spotify (nov 2024) | Adaptación a un obstáculo externo sin tocar el modelo dimensional |
+| Scheduler nocturno multi-usuario con OIDC (`/v1/etl/run-batch`) | ETL programado y autenticado server-to-server, sin tokens en cron |
 
 <br>
 
@@ -126,7 +128,7 @@ ETL incremental de la Spotify API hacia un DWH dimensional en Cloud SQL, infraes
 
 - **Streaming**: Kafka + Apache Flink — siguiente paso natural después de trabajar con CDC y Pub/Sub
 - **dbt**: Transformaciones declarativas para pipelines más mantenibles y testeables
-- **Open to**: Primera oportunidad en Data Engineering o Backend Data &nbsp;·&nbsp; torresparodisdidierjose@gmail.com
+- **Contacto / Colaboraciones**: torresparodisdidierjose@gmail.com
 
 <br>
 
