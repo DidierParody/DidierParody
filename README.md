@@ -128,7 +128,14 @@ Sistema full-stack en producción sobre GCP — ETL incremental de la Spotify AP
 
 - **Streaming**: Kafka + Apache Flink — siguiente paso natural después de trabajar con CDC y Pub/Sub
 - **dbt**: Transformaciones declarativas para pipelines más mantenibles y testeables
-- **Contacto / Colaboraciones**: torresparodisdidierjose@gmail.com
+
+<br>
+
+## Contacto
+
+📩 **Email**: torresparodisdidierjose@gmail.com
+💼 **LinkedIn**: <!-- agrega aquí tu URL: [Didier Parody](https://www.linkedin.com/in/TU-USUARIO) -->
+🌎 **Ubicación**: Colombia · Abierto a remoto
 
 <br>
 
