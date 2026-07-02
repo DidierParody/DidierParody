@@ -2,9 +2,9 @@
 
 # Didier Parody
 
-**Data Engineer** &nbsp;·&nbsp; Building production-grade systems while finishing my CS degree
+**Data Engineer** &nbsp;·&nbsp; Building production-grade data systems
 
-*Pipelines de datos · Agentes LLM · Arquitectura cloud multi-cloud — desde la universidad, con mentalidad de producción*
+*Pipelines de datos · Agentes LLM · Arquitectura cloud multi-cloud — con mentalidad de producción*
 
 </div>
 
@@ -12,9 +12,8 @@
 
 ## About me
 
-- 🎓 Estudiante de Ingeniería en Sistemas — Universidad de Pamplona, Colombia
-- 🏗️ Construyo sistemas de datos reales: ETL incremental, modelado dimensional, pipelines multi-cloud (GCP + AWS)
-- 🤖 Interesado en la intersección de data engineering con AI: RAG, agentes LLM, graph analytics con Neo4j
+- 🏗️ Ingeniero de Datos: construyo sistemas de datos en producción — ETL incremental, modelado dimensional, pipelines multi-cloud (GCP + AWS)
+- 🤖 Especializado en la intersección de data engineering con AI: RAG, agentes LLM, graph analytics con Neo4j
 - 🎯 Disponible para roles de Data Engineering / Backend Data — Colombia o remoto
 
 <br>
