@@ -4,6 +4,8 @@
 
 **Data Engineer** &nbsp;·&nbsp; Building production-grade data systems
 
+*From data to systems. From systems to impact*
+
 *Pipelines de datos · Agentes LLM · Arquitectura cloud multi-cloud — con mentalidad de producción*
 
 </div>
